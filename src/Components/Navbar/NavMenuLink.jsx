@@ -14,7 +14,6 @@ const NavMenuLink = ({ className }) => {
     Page: "/page",
     Contact: "/contact",
   };
-  console.log(className);
 
   return Object.entries(navItemNames).map(([routeName, routeDestinations]) => (
     <NavigationMenuItem key={routeName} className="">
