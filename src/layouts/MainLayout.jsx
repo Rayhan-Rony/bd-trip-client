@@ -1,12 +1,13 @@
 import React from "react";
-import Navbar from "../Components/Navbar";
+
 import Footer from "../Components/Footer";
 import { Outlet } from "react-router";
+import Navbar from "../Components/Navbar/Navbar";
 
 const MainLayout = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar></Navbar>
       <Outlet></Outlet>
       <Footer />
     </div>
