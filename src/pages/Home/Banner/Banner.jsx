@@ -5,7 +5,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-fade";
-import { Autoplay, EffectFade } from "swiper/modules";
+import "swiper/css/zoom";
+import { Zoom, Autoplay, EffectFade } from "swiper/modules";
 
 const Banner = () => {
   const imageLinks = [
@@ -35,14 +36,15 @@ const Banner = () => {
         speed={5000} // transition duration between slides
         // autoplay={true}
         loop={true}
-        modules={[Autoplay, EffectFade]}
+        zoom={true}
+        modules={[Zoom, Autoplay, EffectFade]}
         // black background is working for blackish overlay when fade effect works
         className="mySwiper bg-black"
       >
         {imageLinks.map((imgUrl, index) => (
           <SwiperSlide key={index}>
             <img
-              className="w-full h-[70vh]"
+              className="w-full h-[70vh] zoomAnimation"
               src={imgUrl}
               alt={`${"slide"} ${index + 1} `}
             />

@@ -125,3 +125,14 @@
     @apply bg-background text-foreground;
   }
 }
+@keyframes slideZoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+.zoomAnimation {
+  animation: slideZoom 5s ease-in-out forwards;
+}
