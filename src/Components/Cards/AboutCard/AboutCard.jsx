@@ -1,17 +1,9 @@
 import React from "react";
-import {
-  Card,
-  CardHeader,
-  CardFooter,
-  CardTitle,
-  CardAction,
-  CardDescription,
-  CardContent,
-} from "@/components/ui/card";
+import { Card, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
-const AboutAndBlogCard = () => {
+const AboutCard = () => {
   return (
     <Card className="md:p-2 p-6  border-0 shadow-none pt-8 space-y-4 dark:bg-transparent ">
       <CardDescription className="text-base p-0 text-justify">
@@ -35,4 +27,4 @@ const AboutAndBlogCard = () => {
   );
 };
 
-export default AboutAndBlogCard;
+export default AboutCard;

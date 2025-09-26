@@ -1,5 +1,5 @@
 import React from "react";
-import AboutAndBlogCard from "../../../Components/Cards/AboutAndBlogCard/AboutAndBlogCard";
+import AboutCard from "../../../Components/Cards/AboutCard/AboutCard";
 import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 
 const About = () => {
@@ -24,7 +24,7 @@ const About = () => {
             heading={"We Help You Planning Your Journey"}
             className={"text-center"}
           ></SectionTitle>
-          <AboutAndBlogCard></AboutAndBlogCard>
+          <AboutCard></AboutCard>
         </div>
       </div>
     </div>
