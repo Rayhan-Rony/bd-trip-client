@@ -58,7 +58,7 @@ const WhyUs = () => {
       }}
       className="py-20 bg-no-repeat bg-cover bg-fixed"
     >
-      <div className="max-w-11/12 mx-auto">
+      <div className="max-w-7xl mx-auto ">
         <SectionTitle
           subHeading="Why Us"
           heading="We Make All The Process Easy"

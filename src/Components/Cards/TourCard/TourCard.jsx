@@ -21,7 +21,6 @@ import {
 } from "@/components/ui/card";
 
 const TourCard = ({ tour }) => {
-  console.log(tour);
   const { title, destination, price, description, days, maxParticipants } =
     tour;
   return (

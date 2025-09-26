@@ -323,7 +323,7 @@ const Recommended = () => {
   ];
 
   return (
-    <section className="max-w-11/12 mx-auto py-20">
+    <section className="max-w-7xl mx-auto  py-20">
       <SectionTitle
         subHeading="What's New"
         heading="Recommended"
@@ -333,7 +333,7 @@ const Recommended = () => {
         {/* card  */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {tours.map((tour) => (
-            <TourCard tour={tour} />
+            <TourCard key={tour.id} tour={tour} />
           ))}
         </div>
         <div className="flex justify-center">
