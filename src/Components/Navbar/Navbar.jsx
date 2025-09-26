@@ -19,7 +19,7 @@ import { ModeToggle } from "./MoodToggle";
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="sticky top-0 z-50 bg-white dark:bg-black">
       <div className=" flex items-center justify-between py-9 max-w-11/12 mx-auto">
         <div>
           <Logo></Logo>
