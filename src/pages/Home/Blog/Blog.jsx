@@ -1,6 +1,8 @@
 import React from "react";
 import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 import BlogCard from "../../../Components/Cards/BlogCard/BlogCard";
+import { ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const Blog = () => {
   const blogs = [
@@ -84,6 +86,11 @@ const Blog = () => {
           {blogs.map((blog) => (
             <BlogCard key={blog.id} blog={blog}></BlogCard>
           ))}
+        </div>
+        <div className="flex justify-center mt-20">
+          <Button className="bg-secondary/90 text-white hover:bg-secondary   hover:font-bold">
+            Read All Blogs <ArrowRight className=""></ArrowRight>
+          </Button>
         </div>
       </div>
     </div>
