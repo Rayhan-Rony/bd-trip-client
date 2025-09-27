@@ -12,7 +12,7 @@ const WhyUsCard = ({ title, description, icon }) => {
       </div>
       <div className="space-y-3">
         <h4 className="text-xl font-medium dark:text-black">{title}</h4>
-        <p className="text-gray-800 dark:text-gray-800 ">{description}</p>
+        <p className="text-gray-800 dark:text-gray-800  ">{description}</p>
       </div>
     </div>
   );

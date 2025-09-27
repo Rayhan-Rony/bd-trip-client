@@ -22,7 +22,7 @@ const Career = () => {
             <h2 className="text-2xl font-bold">
               Be Adventurers and Explore...
             </h2>
-            <p>
+            <p className="text-muted-foreground">
               We are always looking for passionate local experts, photographers,
               and adventurers to join our global network. Share your unique
               knowledge and earn money guiding travelers through the places you
